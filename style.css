@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin: 0; 
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body{
+    background-image: url("./assets/background.png")  ;
+  background-size: cover;
+  background-position: center center;              /* optional, center the image */
+
+  /* Set up proportionate scaling */  
+  height: 100vh;
+} 
+h2{
+  color: white;
+}  
+.first{
+  color: white;
+}
+h3{
+  color: white;
+}
+h1{
+  color: white;
+}
