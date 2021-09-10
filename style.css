@@ -1,27 +1,26 @@
 *{
-    padding:0;
-    margin: 0; 
-    font-family: 'Mulish', sans-serif;
+  padding:0;
+  margin: 0; 
+  font-family: 'Mulish', sans-serif;
 
 }
 
 body{
-    background-image: url("./assets/background.png")  ;
+  background-image: url("./assets/background.png")  ;
   background-size: cover;
-  background-position: center center;              /* optional, center the image */
-
-  /* Set up proportionate scaling */  
+  background-position: center center;             
   height: 100vh;
 } 
-h2{
-  color: white;
-}  
-.first{
-  color: white;
-}
-h3{
-  color: white;
-}
-h1{
-  color: white;
+
+.main{
+  color: rgba(27, 3, 3, 0.596);
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.5;
 }
